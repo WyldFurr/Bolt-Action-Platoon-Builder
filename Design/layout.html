@@ -145,7 +145,20 @@ Insert building blocks here.
 
 
 
-<!-- START: Inf Unit Selector -->
+<!-- START: Change Selection block -->
+<div class="darken"></div>
+<div class="changewrapper">
+<div class="changeheader">This Table of Organization slot already contains a unit selection.</div>
+<a href="" class="changeoptions">Replace unit with a new selection</a>
+<a href="" class="changeoptions">Reconfigure the selected unit</a>
+<a href="" class="changeoptions">Delete the current selection</a>
+<a href="" class="changeoptions">Cancel</a>
+</div>
+<!-- END: Change Selection block -->
+
+
+
+<!-- START: Basic Unit Selector -->
 <div class="selectionwrapper">
 <div class="title">Infantry Squad Selection</div>
 <a href="" class="options">Heer Infantry Squad</a>
@@ -162,12 +175,12 @@ Insert building blocks here.
 <a href="" class="options">Hitler Youth Squad</a>
 <a href="" class="options">Kriegsmarine Squad</a>
 </div>
-<!-- END: inf Unit Selector -->
+<!-- END: Basic Unit Selector -->
 
 
 
 
-<!-- START: Optional Unit Selector -->
+<!-- START: Non-Basic Unit Selector or Optional Unit Selector -->
 <div class="selectionwrapper">
 <div class="title">Optional Unit Selection</div>
 <a href="" class="options"><span class="allocation">0-3</span>Infantry Squads</a>
@@ -183,16 +196,13 @@ Insert building blocks here.
 <a href="" class="options"><span class="allocation">0-1</span>Tank, Tank Destroyer, Anti-aircraft vehicle or Self-propelled Artillery</a>
 <a href="" class="options"><span class="allocation">0-1</span>Transport vehicle or tow (soft skins or armoured per infantry and artillery unit in the reinforced platoon</a>
 </div>
-<!-- END: Optional Unit Selector -->
-<!-- START:  change select box -->
-<div class="changewrapper">
-<div class="changeheader">This Table of Organization slot already contains a unit selection.</div>
-<a href="" class="changeoptions">Replace unit with a new selection</a>
-<a href="" class="changeoptions">Reconfigure the selected unit</a>
-<a href="" class="changeoptions">Delete the current selection</a>
-<a href="" class="changeoptions">Cancel</a>
-</div>
-<!-- END: change select box -->
+<!-- END: Non-Basic Unit Selector or Optional Unit Selector -->
+
+
+
+
+
+
 <!-- START: Unit Config Selector -->
 <div class="unitconfigwrapper">
 <div class="title">Heer Infantry Squad</div>
@@ -219,19 +229,18 @@ Insert building blocks here.
     </tr>
 </table>
 </div>
-<a class="configextra">Add an additional Rifleman (+10pts)</a>
-<a Class="configextra">Add an additional Rifleman (+10pts)</a>
-<a Class="configextra">Add an additional Rifleman (+10pts)</a>
-<a Class="configextra">Add an additional Rifleman (+10pts)</a>
-<a Class="configextra">Add an additional Rifleman (+10pts)</a>
-<a Class="configextra">Equip the NCO with a submachine gun (+3pts)</a>
-<a Class="configextra">Equip one Rifleman with a light machine gun (+20pts)</a>
-<a Class="configextra">Mount the Squad on bicycles (+1pts per man)</a>
-<a Class="configextra">Equip the Squad with anti-tank grenades (+2pts per man)</a>
+<div class="extramen"><div style="margin-bottom: 5px">Additional Riflemen</div><a href="" class="addman">-</a><span class="number">0-5</span><a href="" class="addman">+</a></div>
+<a Class="configextra">Equip the NCO with a submachine gun.</a>
+<a Class="configextra">Equip one Rifleman with a light machine gun.</a>
+<a Class="configextra">Mount the Squad on bicycles.</a>
+<a Class="configextra">Equip the Squad with anti-tank grenades.</a>
 </div>
-<a href="" class="accept">Accept Unit Configuration</a>
+<a href="" class="accept">Accept Configuration</a>
 </div>
 <!-- END: Unit Config Selector -->
+
+
+
 <!-- START: Admin links -->
 <div class="adminlinks"><a href="layout.html">Layout HTML</a> &diams; <a href="example.html">Example</a> &diams; <a href="http://www.wyldfurr.com/">Studio WyldFurr</a></div>
 <!-- END: Admin links -->
