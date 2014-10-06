@@ -38,7 +38,7 @@ a:active {
 	left: 0px;
 	right: 0px;
 	bottom: 0px;
-	overflow:scroll;
+	overflow: scroll;
 	z-index: 1;
 }
 /* START: App Title Screen */
@@ -256,13 +256,17 @@ a:active {
 	font-size: 12px;
 	font-weight: bold;
 	text-align: right;
-	color: #000;
+	color: #fff;
+	font-family: 'Electrolize', sans-serif;
+	text-shadow: 0 0 5px #000;
 }
 .info2 {
 	font-size: 12px;
 	font-weight: normal;
 	text-align: left;
-	color: #000;
+	color: #fff;
+	font-family: 'Electrolize', sans-serif;
+	text-shadow: 0 0 5px #000;
 }
 /* END: Info block */
 /* START: Extra Unit Selection Block */
@@ -569,6 +573,23 @@ a:active {
 	float: left;
 }
 /* END: Header Menu Bar */
+/* START: Points Allocation Block */
+.pointstextbox {
+	display: block;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	border-radius: 5px 5px 5px 5px;
+	background-color: #FFFFFF;
+	color: #000000;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	text-align: center;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	width: 140px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+}
+/* END: Points Allocation Block */
 /* START: Admin links */
 .adminlinks {
 	font-size: 12px;
@@ -583,3 +604,38 @@ a:active {
 	color: #0084FF;
 }
 /* END: Admin links */
+/* START: Theatre Selectors block */
+.theatrewrapper {
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	border-radius: 10px 10px 10px 10px;
+	-webkit-box-shadow: 0 0 20px 0px #000000;
+	box-shadow: 0 0 20px 0px #000000;
+	background: #7d7e7d; /* Old browsers */
+	background: -moz-linear-gradient(top,  #7d7e7d 0%, #0e0e0e 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#7d7e7d), color-stop(100%,#0e0e0e)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #7d7e7d 0%,#0e0e0e 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #7d7e7d 0%,#0e0e0e 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #7d7e7d 0%,#0e0e0e 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #7d7e7d 0%,#0e0e0e 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#0e0e0e',GradientType=0 ); /* IE6-9 */
+	border-bottom: 1px solid #5B5B5B;
+	border-top: 1px solid #9F9F9F;
+}
+.tstitle {
+	font-family: 'Exo', sans-serif;
+	font-size: 12px;
+	text-align: left;
+	margin-bottom: 0px;
+}
+.tsname {
+	font-size: 10px;
+	font-family: 'Electrolize', sans-serif;
+	text-align: right;
+	margin-right: 5px;
+}
+/* END: Theatre Selectors block */
