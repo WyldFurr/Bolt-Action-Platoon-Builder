@@ -716,3 +716,56 @@ a:active {
 	margin-right: 5px;
 }
 /* END: Theatre Selectors block */
+.moraloptional {
+	font-family: 'Exo', sans-serif;
+	font-size: 12px;
+	text-align: center;
+	color: #000000;
+	font-weight: bold;
+}
+.moralbutton {
+	-webkit-border-radius: 5px 5px 5px 5px;
+	border-radius: 5px 5px 5px 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-left: 2px;
+	margin-right: 2px;
+	display: inline-block;
+	background: #D7D7D7;
+	color:#FFFFFF;
+	margin-top: 5px;
+	font-weight: normal;
+}
+.moralbutton:hover {
+	-webkit-border-radius: 5px 5px 5px 5px;
+	border-radius: 5px 5px 5px 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-left: 2px;
+	margin-right: 2px;
+	display: inline-block;
+	background: #000000;
+	color:#FFFFFF;
+	margin-top: 5px;
+	font-weight: normal;
+}
+.specialtitle {
+	font-size: 12px;
+	text-align: center;
+	color: #000000;
+	font-family: 'Black Ops One', cursive;
+	margin-top: 5px;
+}
+.specialrules {
+	margin-top: 5px;
+	margin-left: 10px;
+	margin-right: 10px;
+	color: #000000;
+	font-size: 12px;
+	font-family: 'Exo', sans-serif;
+	text-align: justify;
+}
