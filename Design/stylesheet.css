@@ -16,6 +16,7 @@ font-family: 'Electrolize', sans-serif;
 */
 body {
 	background-color: #E5E5E5;
+	background-image:url(images/grass.jpg);
 }
 a:link {
 	text-decoration: none;
@@ -29,6 +30,74 @@ a:hover {
 a:active {
 	text-decoration: none;
 }
+/* START: TOP MENU BAR */
+.menubar {
+	z-index: 10;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	height: 40px;
+	background-image:url(images/top-menu-bar.jpg);
+	-webkit-box-shadow: 0 0 20px 0px #000;
+	box-shadow: 0 0 20px 0px #000;
+}
+.menu-left {
+	float: left;
+	width: 40px;
+	height: 40px;
+	border: none;
+}
+.menu-right {
+	float: right;
+	width: 40px;
+	height: 40px;
+	border: none;
+}
+/* END: TOP MENU BAR */
+/* START: Content Wrapper */
+.content-wrapper {
+	z-index: 5;
+	position: absolute;
+	top: 40px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	overflow: auto;
+}
+/* END: Content Wrapper */
+/* START: Platoon Config */
+.pc-blockone {
+	background-image:url(images/squad-config-pa1.png);
+	height: 183px;
+	width: 306px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5px;
+	margin-bottom: 0px;
+}
+.pc-points {
+	margin-top: 0px;
+	margin-left: 137px;
+	display: block;
+	width: 101px;
+	height: 25px;
+	padding-top: 5px;
+	color: #cdb38e;
+	font-size: 20px;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #4b2615;
+	font-family: 'Electrolize', sans-serif;
+	text-align: center;
+	vertical-align: middle;	
+}
+.moraloptions {
+	margin-top: 29px;
+	height: 31px;
+	width: 306px;
+}
+/* END: Platoon Config */
+/*
 .mainwrapper {
 	background: url(images/german-army-background.jpg);
 	background-repeat: no-repeat;
@@ -41,7 +110,6 @@ a:active {
 	overflow: scroll;
 	z-index: 1;
 }
-/* START: App Title Screen */
 .apptitle {
 	text-align: center;
 	font-size: 22px;
@@ -80,10 +148,10 @@ a:active {
 	font-family: 'Exo', sans-serif;
 }
 .homeoptions:hover {
-	background: #939598; /* Old browsers */
+	background: #939598;
 }
 .homeoptions:active {
-	background: #939598; /* Old browsers */
+	background: #939598;
 }
 .splashwrapper {
 	margin-top: 20px;
@@ -94,7 +162,7 @@ a:active {
 	border-radius: 10px 10px 10px 10px;
 	-webkit-box-shadow: 0 0 20px 0px #000000;
 	box-shadow: 0 0 20px 0px #000000;
-	background: #7d7e7d; /* Old browsers */
+	background: #7d7e7d;
 	background: -moz-linear-gradient(top,  #7d7e7d 0%, #0e0e0e 100%); /* FF3.6+ */
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#7d7e7d), color-stop(100%,#0e0e0e)); /* Chrome,Safari4+ */
 	background: -webkit-linear-gradient(top,  #7d7e7d 0%,#0e0e0e 100%); /* Chrome10+,Safari5.1+ */
