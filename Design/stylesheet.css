@@ -95,6 +95,154 @@ a:active {
 	height: 31px;
 	width: 306px;
 }
+.squad-slot1 {
+	background-image: url(images/man-slot-1.png); /* The objective is to randomise the background art for each box - there are 7 different backgrounds */
+	height: 45px;
+	width: 306px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.squad-slot2 {
+	background-image: url(images/man-slot-2.png); /* The objective is to randomise the background art for each box - there are 7 different backgrounds */
+	height: 45px;
+	width: 306px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.squad-slot3 {
+	background-image: url(images/man-slot-3.png); /* The objective is to randomise the background art for each box - there are 7 different backgrounds */
+	height: 45px;
+	width: 306px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.squad-slot4 {
+	background-image: url(images/man-slot-4.png); /* The objective is to randomise the background art for each box - there are 7 different backgrounds */
+	height: 45px;
+	width: 306px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.squad-slot5 {
+	background-image: url(images/man-slot-5.png); /* The objective is to randomise the background art for each box - there are 7 different backgrounds */
+	height: 45px;
+	width: 306px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.squad-slot6 {
+	background-image: url(images/man-slot-6.png); /* The objective is to randomise the background art for each box - there are 7 different backgrounds */
+	height: 45px;
+	width: 306px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.squad-slot7 {
+	background-image: url(images/man-slot-7.png); /* The objective is to randomise the background art for each box - there are 7 different backgrounds */
+	height: 45px;
+	width: 306px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.addrifleman {
+	width: 300px;
+	height: 40px;
+	margin-left: 3px;
+	margin-right: 3px;
+	border: none;
+}
+.minus {
+	width: 40px;
+	height: 40px;
+	border: none;
+}
+.slot-options {
+	float: right;
+	margin-right: 3px;
+	height: 39px;
+	padding-top: 6px;
+	width: 251px;
+	padding-left: 9px;
+}
+.remove-slot {
+	float: left;
+	margin-left: 3px;
+	height: 40px;
+	width: 40px;
+}
+.option-rifle {
+	width: 45px;
+	height: 15px;
+	border: none;
+	float: left;
+}
+.option-smg {
+	width: 113px;
+	height: 15px;
+	border: none;
+	float: left;
+}
+.option-arifle {
+	width: 87px;
+	height: 15px;
+	border: none;
+	float: left;
+}
+.option-lmg {
+	width: 122px;
+	height: 15px;
+	border: none;
+	float: left;
+}
+.option-pfaust {
+	width: 86px;
+	height: 15px;
+	border: none;
+	float: left;
+}
+.option-fthrower {
+	width: 98px;
+	height: 15px;
+	border: none;
+	float: left;
+}
+.nco {
+	width: 219px;
+	height: 15px;
+	float: left;
+}
+.acceptorcancel {
+	width: 306px;
+	height: 45px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.buttonaccept {
+	width: 151px;
+	height: 45px;
+	float: left;
+	border: none;
+}
+.buttoncancel {
+	width: 151px;
+	height: 45px;
+	float: right;
+	border: none;
+}
 /* END: Platoon Config */
 /*
 .mainwrapper {
