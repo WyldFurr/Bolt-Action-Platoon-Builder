@@ -243,6 +243,56 @@ a:active {
 	float: right;
 	border: none;
 }
+.squad-options-one {
+	background: url(images/squad-options-block-1.png); /* This is the block for one option */
+	width: 293px;
+	height: 49px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 19px;
+	padding-left: 13px;
+}
+.squad-options-two {
+	background: url(images/squad-options-block-2.png); /* This is the block for two options */
+	width: 293px;
+	height: 83px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 19px;
+	padding-left: 13px;
+}
+.squad-options-three {
+	background: url(images/squad-options-block-3.png); /* This is the block for three options */
+	width: 293px;
+	height: 117px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 19px;
+	padding-left: 13px;
+}
+.squad-options-four {
+	background: url(images/squad-options-block-4.png); /* This is the block for four options */
+	width: 293px;
+	height: 151px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 19px;
+	padding-left: 13px;
+}
+.squad-options-five {
+	background: url(images/squad-options-block-5.png); /* This is the block for five options */
+	width: 293px;
+	height: 185px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 19px;
+	padding-left: 13px;
+}
+.squadoptions {
+	width: 283px;
+	height: 34px;
+	border: none;
+}
 /* END: Platoon Config */
 /*
 .mainwrapper {
