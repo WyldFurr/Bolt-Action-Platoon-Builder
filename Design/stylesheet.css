@@ -294,6 +294,17 @@ a:active {
 	border: none;
 }
 /* END: Platoon Config */
+/* START: Studio Link */
+.studiowyldfurr {
+	width: 150px;
+	height: 55px;
+	border: none;
+	margin-bottom: 20px;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+/* END: Studio Link */
 /*
 .mainwrapper {
 	background: url(images/german-army-background.jpg);
