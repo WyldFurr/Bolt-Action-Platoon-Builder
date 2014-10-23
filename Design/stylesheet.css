@@ -1,19 +1,12 @@
 @charset "utf-8";
 /* CSS Document */
-@import url(http://fonts.googleapis.com/css?family=Exo:400,600,900|Black+Ops+One);
-@import url(http://fonts.googleapis.com/css?family=Electrolize);
 body,td,th {
-	font-family: 'Exo', Helvetica, Arial, sans-serif;
+	font-family: Helvetica, Arial, sans-serif;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 0px;
 	color: #DADADA;
 }
-/* GOOGLE FONTS
-font-family: 'Exo', sans-serif;
-font-family: 'Black Ops One', cursive;
-font-family: 'Electrolize', sans-serif;
-*/
 body {
 	background-color: #E5E5E5;
 	background-image:url(images/grass.jpg);
@@ -83,6 +76,15 @@ a:active {
 	width: 101px;
 	height: 30px;
 	text-align: center;	
+}
+.squad-points {
+	width: 101px;
+	height: 30px;
+	color: #cdb38e;
+	text-shadow: 0 0 4px #4b2615;
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
 }
 .moraloptions {
 	margin-top: 29px;
@@ -288,6 +290,112 @@ a:active {
 	border: none;
 }
 /* END: Platoon Config */
+/* START: Platoon Unit Order */
+.pointsblock {
+	width: 306px;
+	height: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url(images/platoon-config-points.png);
+}
+.startingpoints {
+	float: left;
+	display: block;
+	width: 80px;
+	height: 30px;
+	margin-left: 13px;
+	margin-top: 53px;
+}
+.allocatedpoints {
+	float: left;
+	display: block;
+	width: 80px;
+	height: 30px;
+	margin-left: 20px;
+	margin-top: 53px;
+}
+.remainingpoints {
+	float: left;
+	display: block;
+	width: 80px;
+	height: 30px;
+	margin-left: 20px;
+	margin-top: 53px;
+}
+.pointsnumbers {
+	width: 80px;
+	height: 30px;
+	color: #cdb38e;
+	text-shadow: 0 0 4px #4b2615;
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+}
+.unit-slot1 {
+	background-image: url(images/platoon-slot-1.png); /* The objective is to randomise the background art for each box - there are 4 different backgrounds */
+	height: 45px;
+	width: 306px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.unit-slot2 {
+	background-image: url(images/platoon-slot-2.png); /* The objective is to randomise the background art for each box - there are 4 different backgrounds */
+	height: 45px;
+	width: 306px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.unit-slot3 {
+	background-image: url(images/platoon-slot-3.png); /* The objective is to randomise the background art for each box - there are 4 different backgrounds */
+	height: 45px;
+	width: 306px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.unit-slot4 {
+	background-image: url(images/platoon-slot-4.png); /* The objective is to randomise the background art for each box - there are 4 different backgrounds */
+	height: 45px;
+	width: 306px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.unittitle {
+	width: 198px;
+	height: 16px;
+	float: left;
+	border: none;
+}
+.unitvalue {
+	width: 46px;
+	height: 29px;
+	float: right;
+	display: block;
+	margin-right: 6px;
+}
+.unitmoral {
+	width: 89px;
+	height: 16px;
+	float: right;
+	border: none;
+}
+.unitnumbers {
+	width: 80px;
+	height: 30px;
+	color: #cdb38e;
+	text-shadow: 0 0 4px #4b2615;
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+}
+/* START: Platoon Unit Order */
 /* START: Studio Link */
 .studiowyldfurr {
 	width: 150px;
