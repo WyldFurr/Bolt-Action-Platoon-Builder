@@ -468,6 +468,26 @@ a:active {
 	margin-right: auto;
 }
 /* END: Studio Link */
+/* START: Nationality Selector */
+.nationalityheader {
+	width: 306px;
+	height: 45px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+}
+.nationwrapper {
+	width: 306px;
+	height: 37px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.nationbutton {
+	border: none;
+	width: 306px;
+	height: 37px;
+}
+/* END: Nationality Selector */
 /*
 
 text-shadow: 0 1px 1px #ffdfc2;
