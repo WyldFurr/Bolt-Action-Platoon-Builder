@@ -488,6 +488,23 @@ a:active {
 	height: 37px;
 }
 /* END: Nationality Selector */
+/* START: Points and Theatre Selector Blocks */
+.startingpoints {
+	width: 306px;
+	height: 110px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	background-image:url(images/points-block.png);
+}
+.theatre-germany {
+	width: 306px;
+	height: 421px;
+	margin-left: auto;
+	margin-right: auto;
+	background-image:url(images/theatres-germany.png);
+}
+/* END: Points and Theatre Selector Blocks */
 /*
 
 text-shadow: 0 1px 1px #ffdfc2;
