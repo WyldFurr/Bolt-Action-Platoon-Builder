@@ -489,13 +489,13 @@ a:active {
 }
 /* END: Nationality Selector */
 /* START: Points and Theatre Selector Blocks */
-.startingpoints {
+.maxstartingpoints {
 	width: 306px;
 	height: 110px;
 	margin-left: auto;
 	margin-right: auto;
+	background-image: url(images/points-block.png);
 	margin-top: 10px;
-	background-image:url(images/points-block.png);
 }
 .theatre-germany {
 	width: 306px;
@@ -503,6 +503,56 @@ a:active {
 	margin-left: auto;
 	margin-right: auto;
 	background-image:url(images/theatres-germany.png);
+}
+.points-container {
+	float: left;
+	margin-top: 62px;
+	margin-left: 158px;
+	width: 134px;
+	height: 30px;
+}
+.maxpointstable {
+	width: 134px;
+	height: 30px;
+}
+.topspace {
+	height: 63px;
+}
+.selectiondot {
+	margin-left: 20px;
+	float: left;
+	clear: both;
+	width: 18px;
+	height: 18px;
+}
+.startbuildingwrapper {
+	width: 306px;
+	height: 45px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.startbuildingbutton {
+	width: 306px;
+	height: 45px;
+	border: none;
+}
+.nameitwrapper {
+	margin-left: auto;
+	margin-right: auto;
+	width: 306px;
+	height: 83px;
+	background-image: url(images/platoon-name.png);
+}
+.nametextentry {
+	margin-top: 36px;
+	margin-left: 14px;
+	float: left;
+	height: 30px;
+	width: 278px;
+}
+.nameittable {
+	height: 30px;
+	width: 278px;
 }
 /* END: Points and Theatre Selector Blocks */
 /*
