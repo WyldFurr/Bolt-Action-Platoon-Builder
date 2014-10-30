@@ -555,6 +555,21 @@ a:active {
 	width: 278px;
 }
 /* END: Points and Theatre Selector Blocks */
+/* START: Slide out menu */
+.slideoutmenuwrapper {
+	z-index: 20;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 207px;
+	height: 600px;
+}
+.sombutton {
+	width: 207px;
+	height: 40px;
+	border: none;
+}
+/* END: Slide out menu */
 /*
 
 text-shadow: 0 1px 1px #ffdfc2;
