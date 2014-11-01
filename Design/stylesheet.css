@@ -570,6 +570,113 @@ a:active {
 	border: none;
 }
 /* END: Slide out menu */
+/* START: Saved List Block */
+.saved-list-block-1 {
+	height: 130px;
+	width: 306px;
+	margin-left: auto;
+	margin-right: auto;
+	background-image:url(images/saved-platoon-box-1.png);
+}
+.saved-list-block-2 {
+	height: 130px;
+	width: 306px;
+	margin-left: auto;
+	margin-right: auto;
+	background-image:url(images/saved-platoon-box-2.png);
+}
+.saved-list-block-3 {
+	height: 130px;
+	width: 306px;
+	margin-left: auto;
+	margin-right: auto;
+	background-image:url(images/saved-platoon-box-3.png);
+}
+.saved-list-block-4 {
+	height: 130px;
+	width: 306px;
+	margin-left: auto;
+	margin-right: auto;
+	background-image:url(images/saved-platoon-box-4.png);
+}
+.savedtextdisplay {
+	margin-top: 11px;
+	margin-left: 14px;
+	float: left;
+	height: 77px;
+	width: 278px;	
+}
+.iconsavefirst {
+	width: 36px;
+	height: 36px;
+	border: none;
+	float: right;
+	margin-right: 14px;
+}
+.iconsave {
+	width: 36px;
+	height: 36px;
+	border: none;
+	float: right;
+}
+.savedtable {
+	width: 278px;
+	margin-top: 5px;
+}
+.savedcellone {
+	color: #cdb38e;
+	text-shadow: 0 0 4px #4b2615;
+	text-align: center;
+	font-size: 15px;
+	font-weight: bold;
+	height: 17px;
+	overflow: hidden;
+}
+.savedcelltwo {
+	width: 30%;
+	color: #cdb38e;
+	text-shadow: 0 0 4px #4b2615;
+	text-align: right;
+	font-size: 14px;
+	font-weight: bold;
+	height: 17px;
+	overflow: hidden;
+}
+.savedcellthree {
+	width: auto;
+	color: #cdb38e;
+	text-shadow: 0 0 4px #4b2615;
+	text-align: left;
+	font-size: 14px;
+	font-weight: normal;
+	height: 17px;
+	overflow: hidden;
+}
+.savedcellfour {
+	width: 30%;
+	color: #cdb38e;
+	text-shadow: 0 0 4px #4b2615;
+	text-align: right;
+	font-size: 14px;
+	font-weight: bold;
+	height: 17px;
+	overflow: hidden;
+}
+.savedcellfive {
+	width: 20%;
+	color: #cdb38e;
+	text-shadow: 0 0 4px #4b2615;
+	text-align: left;
+	font-size: 14px;
+	font-weight: normal;
+	height: 17px;
+	vertical-align: central;
+	overflow: hidden;
+}
+.space {
+	height: 10px;
+}
+/* END: Saved List Block */
 /*
 
 text-shadow: 0 1px 1px #ffdfc2;
