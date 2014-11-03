@@ -808,3 +808,20 @@ a:active {
 	float: right;
 	margin-right: 15px;
 }
+/* END: Officer config */
+/* START: Small Team Config */
+.stslottitle {
+	width: 243px;
+	height: 22px;
+	border: none;
+	float: left;
+	margin-left: 5px;
+}
+.stslotweapon {
+	width: 243px;
+	height: 15px;
+	border: none;
+	float: left;
+	margin-left: 5px;
+}
+/* END: Small Team Config */
