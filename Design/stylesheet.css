@@ -825,3 +825,23 @@ a:active {
 	margin-left: 5px;
 }
 /* END: Small Team Config */
+/* START: Medic */
+.medicheader {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	height: 85px;
+	width: 306px;
+	background-image: url(images/medic-team.png);
+}
+/* END: Medic */
+/* START: Forward Observer */
+.forwardheader {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	height: 85px;
+	width: 306px;
+	background-image: url(images/forward-observer-block.png);
+}
+/* END: Forward Observer */
