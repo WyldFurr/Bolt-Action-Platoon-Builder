@@ -1,0 +1,865 @@
+@charset "utf-8";
+/* CSS Document */
+@import url(http://fonts.googleapis.com/css?family=Questrial);
+body,td,th {
+	font-family: 'Questrial', Arial, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 0px;
+	color: #DADADA;
+}
+body {
+	background-color: #E5E5E5;
+	background-image:url(../images/grass.jpg);
+}
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+}
+/* START: TOP MENU BAR */
+.menubar {
+	z-index: 10;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	height: 40px;
+	background-image:url(../images/top-menu-bar.jpg);
+	-webkit-box-shadow: 0 0 20px 0px #000;
+	box-shadow: 0 0 20px 0px #000;
+}
+.menu-left {
+	float: left;
+	width: 40px;
+	height: 40px;
+	border: none;
+}
+.menu-right {
+	float: right;
+	width: 40px;
+	height: 40px;
+	border: none;
+}
+/* END: TOP MENU BAR */
+/* START: Content Wrapper */
+.content-wrapper {
+	z-index: 5;
+	position: absolute;
+	top: 40px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	overflow: auto;
+}
+/* END: Content Wrapper */
+/* START: Platoon Config */
+.pc-blockone {
+	background-image:url(../images/squad-config-pa1.png);
+	height: 183px;
+	width: 306px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+.pc-blocktwo {
+	background-image:url(../images/squad-config-pa2.png);
+	height: 183px;
+	width: 306px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+.pc-blocksmall {
+	background-image:url(../images/squad-config-pasmall.png);
+	height: 160px;
+	width: 306px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+.pc-points {
+	margin-top: 0px;
+	margin-left: 137px;
+	display: block;
+	width: 101px;
+	height: 30px;
+	text-align: center;	
+}
+.squad-points {
+	width: 101px;
+	height: 30px;
+	color: #cdb38e;
+	text-shadow: 0 0 4px #4b2615;
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+}
+.moraloptions {
+	margin-top: 29px;
+	height: 31px;
+	width: 306px;
+}
+.squad-slot1 {
+	background-image: url(../images/man-slot-1.png); /* The objective is to randomise the background art for each box - there are 7 different backgrounds */
+	height: 45px;
+	width: 306px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.squad-slot2 {
+	background-image: url(../images/man-slot-2.png); /* The objective is to randomise the background art for each box - there are 7 different backgrounds */
+	height: 45px;
+	width: 306px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.squad-slot3 {
+	background-image: url(../images/man-slot-3.png); /* The objective is to randomise the background art for each box - there are 7 different backgrounds */
+	height: 45px;
+	width: 306px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.squad-slot4 {
+	background-image: url(../images/man-slot-4.png); /* The objective is to randomise the background art for each box - there are 7 different backgrounds */
+	height: 45px;
+	width: 306px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.squad-slot5 {
+	background-image: url(../images/man-slot-5.png); /* The objective is to randomise the background art for each box - there are 7 different backgrounds */
+	height: 45px;
+	width: 306px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.squad-slot6 {
+	background-image: url(../images/man-slot-6.png); /* The objective is to randomise the background art for each box - there are 7 different backgrounds */
+	height: 45px;
+	width: 306px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.squad-slot7 {
+	background-image: url(../images/man-slot-7.png); /* The objective is to randomise the background art for each box - there are 7 different backgrounds */
+	height: 45px;
+	width: 306px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.addrifleman {
+	width: 300px;
+	height: 40px;
+	margin-left: 3px;
+	margin-right: 3px;
+	border: none;
+}
+.minus {
+	width: 40px;
+	height: 40px;
+	border: none;
+}
+.slot-options {
+	float: right;
+	margin-right: 3px;
+	height: 39px;
+	padding-top: 6px;
+	width: 251px;
+	padding-left: 9px;
+}
+.remove-slot {
+	float: left;
+	margin-left: 3px;
+	height: 40px;
+	width: 40px;
+}
+.option-rifle {
+	width: 45px;
+	height: 15px;
+	border: none;
+	float: left;
+}
+.option-smg {
+	width: 113px;
+	height: 15px;
+	border: none;
+	float: left;
+}
+.option-arifle {
+	width: 87px;
+	height: 15px;
+	border: none;
+	float: left;
+}
+.option-lmg {
+	width: 122px;
+	height: 15px;
+	border: none;
+	float: left;
+}
+.option-pfaust {
+	width: 86px;
+	height: 15px;
+	border: none;
+	float: left;
+}
+.option-fthrower {
+	width: 98px;
+	height: 15px;
+	border: none;
+	float: left;
+}
+.nco {
+	width: 219px;
+	height: 15px;
+	float: left;
+}
+.acceptorcancel {
+	width: 306px;
+	height: 45px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.buttonaccept {
+	width: 151px;
+	height: 45px;
+	float: left;
+	border: none;
+}
+.buttoncancel {
+	width: 151px;
+	height: 45px;
+	float: right;
+	border: none;
+}
+.squad-options-one {
+	background: url(../images/squad-options-block-1.png); /* This is the block for one option */
+	width: 293px;
+	height: 49px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 19px;
+	padding-left: 13px;
+}
+.squad-options-two {
+	background: url(../images/squad-options-block-2.png); /* This is the block for two options */
+	width: 293px;
+	height: 83px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 19px;
+	padding-left: 13px;
+}
+.squad-options-three {
+	background: url(../images/squad-options-block-3.png); /* This is the block for three options */
+	width: 293px;
+	height: 117px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 19px;
+	padding-left: 13px;
+}
+.squad-options-four {
+	background: url(../images/squad-options-block-4.png); /* This is the block for four options */
+	width: 293px;
+	height: 151px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 19px;
+	padding-left: 13px;
+}
+.squad-options-five {
+	background: url(../images/squad-options-block-5.png); /* This is the block for five options */
+	width: 293px;
+	height: 185px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 19px;
+	padding-left: 13px;
+}
+.squadoptions {
+	width: 283px;
+	height: 34px;
+	border: none;
+}
+/* END: Platoon Config */
+/* START: Platoon Unit Order */
+.pointsblock {
+	width: 306px;
+	height: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url(../images/platoon-config-points.png);
+}
+.startingpoints {
+	float: left;
+	display: block;
+	width: 80px;
+	height: 30px;
+	margin-left: 13px;
+	margin-top: 53px;
+}
+.allocatedpoints {
+	float: left;
+	display: block;
+	width: 80px;
+	height: 30px;
+	margin-left: 20px;
+	margin-top: 53px;
+}
+.remainingpoints {
+	float: left;
+	display: block;
+	width: 80px;
+	height: 30px;
+	margin-left: 20px;
+	margin-top: 53px;
+}
+.pointsnumbers {
+	width: 80px;
+	height: 30px;
+	color: #cdb38e;
+	text-shadow: 0 0 4px #4b2615;
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+}
+.unit-slot1 {
+	background-image: url(../images/platoon-slot-1.png); /* The objective is to randomise the background art for each box - there are 4 different backgrounds */
+	height: 45px;
+	width: 306px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.unit-slot2 {
+	background-image: url(../images/platoon-slot-2.png); /* The objective is to randomise the background art for each box - there are 4 different backgrounds */
+	height: 45px;
+	width: 306px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.unit-slot3 {
+	background-image: url(../images/platoon-slot-3.png); /* The objective is to randomise the background art for each box - there are 4 different backgrounds */
+	height: 45px;
+	width: 306px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.unit-slot4 {
+	background-image: url(../images/platoon-slot-4.png); /* The objective is to randomise the background art for each box - there are 4 different backgrounds */
+	height: 45px;
+	width: 306px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.unittitle {
+	width: 198px;
+	height: 16px;
+	float: left;
+	border: none;
+}
+.unitvalue {
+	width: 46px;
+	height: 29px;
+	float: right;
+	display: block;
+	margin-right: 6px;
+	text-align: center;
+}
+.celltext {
+	width: 46px;
+	height: 29px;
+	color: #cdb38e;
+	text-shadow: 0 0 4px #4b2615;
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+}
+.unitmoral {
+	width: 89px;
+	height: 16px;
+	float: right;
+	border: none;
+}
+.section-header-1 {
+	width: 306px;
+	height: 34px;
+	background-image:url(../images/section-bars-1.png);
+	margin-left: auto;
+	margin-right: auto;
+	color: #7a6d54;
+}
+.section-header-2 {
+	width: 306px;
+	height: 34px;
+	background-image:url(../images/section-bars-2.png);
+	margin-left: auto;
+	margin-right: auto;
+}
+.section-header-3 {
+	width: 306px;
+	height: 34px;
+	background-image:url(../images/section-bars-3.png);
+	margin-left: auto;
+	margin-right: auto;
+}
+.name-theatre {
+	width: 306px;
+	height: 130px;
+	background-image:url(../images/name-and-theatre.png);
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+}
+.platoonname {
+	width: 278px;
+	height: 30px;
+	margin-top: 27px;
+	margin-left: 14px;
+	float: left;
+}
+.theatrename {
+	width: 278px;
+	height: 30px;
+	margin-top: 28px;
+	margin-left: 14px;
+	float: left;
+}
+.tabletext {
+	color: #cdb38e;
+	text-shadow: 0 0 4px #4b2615;
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+}
+/* START: Platoon Unit Order */
+/* START: Studio Link */
+.studiowyldfurr {
+	width: 150px;
+	height: 55px;
+	border: none;
+	margin-bottom: 20px;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.logo {
+	width: 150px;
+	height: 55px;
+	margin-bottom: 20px;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+/* END: Studio Link */
+/* START: Nationality Selector */
+.nationalityheader {
+	width: 306px;
+	height: 45px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+}
+.nationwrapper {
+	width: 306px;
+	height: 37px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.nationbutton {
+	border: none;
+	width: 306px;
+	height: 37px;
+}
+/* END: Nationality Selector */
+/* START: Points and Theatre Selector Blocks */
+.maxstartingpoints {
+	width: 306px;
+	height: 110px;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url(../images/points-block.png);
+	margin-top: 10px;
+}
+.theatre-germany {
+	width: 306px;
+	height: 421px;
+	margin-left: auto;
+	margin-right: auto;
+	background-image:url(../images/theatres-germany.png);
+}
+.points-container {
+	float: left;
+	margin-top: 62px;
+	margin-left: 158px;
+	width: 134px;
+	height: 30px;
+}
+.maxpointstable {
+	width: 134px;
+	height: 30px;
+}
+.topspace {
+	height: 63px;
+}
+.selectiondot {
+	margin-left: 20px;
+	float: left;
+	clear: both;
+	width: 18px;
+	height: 18px;
+}
+.startbuildingwrapper {
+	width: 306px;
+	height: 45px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.startbuildingbutton {
+	width: 306px;
+	height: 45px;
+	border: none;
+}
+.nameitwrapper {
+	margin-left: auto;
+	margin-right: auto;
+	width: 306px;
+	height: 83px;
+	background-image: url(../images/platoon-name.png);
+}
+.nametextentry {
+	margin-top: 36px;
+	margin-left: 14px;
+	float: left;
+	height: 30px;
+	width: 278px;
+}
+.nameittable {
+	height: 30px;
+	width: 278px;
+}
+/* END: Points and Theatre Selector Blocks */
+/* START: Slide out menu */
+.slideoutmenuwrapper {
+	z-index: 20;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 207px;
+	height: 600px;
+}
+.sombutton {
+	width: 207px;
+	height: 40px;
+	border: none;
+}
+/* END: Slide out menu */
+/* START: Saved List Block */
+.saved-list-block-1 {
+	height: 130px;
+	width: 306px;
+	margin-left: auto;
+	margin-right: auto;
+	background-image:url(../images/saved-platoon-box-1.png);
+}
+.saved-list-block-2 {
+	height: 130px;
+	width: 306px;
+	margin-left: auto;
+	margin-right: auto;
+	background-image:url(../images/saved-platoon-box-2.png);
+}
+.saved-list-block-3 {
+	height: 130px;
+	width: 306px;
+	margin-left: auto;
+	margin-right: auto;
+	background-image:url(../images/saved-platoon-box-3.png);
+}
+.saved-list-block-4 {
+	height: 130px;
+	width: 306px;
+	margin-left: auto;
+	margin-right: auto;
+	background-image:url(../images/saved-platoon-box-4.png);
+}
+.savedtextdisplay {
+	margin-top: 11px;
+	margin-left: 14px;
+	float: left;
+	height: 77px;
+	width: 278px;	
+}
+.iconsavefirst {
+	width: 36px;
+	height: 36px;
+	border: none;
+	float: right;
+	margin-right: 14px;
+}
+.iconsave {
+	width: 36px;
+	height: 36px;
+	border: none;
+	float: right;
+}
+.savedtable {
+	width: 278px;
+	margin-top: 5px;
+}
+.savedcellone {
+	color: #cdb38e;
+	text-shadow: 0 0 4px #4b2615;
+	text-align: center;
+	font-size: 15px;
+	font-weight: bold;
+	height: 17px;
+	overflow: hidden;
+}
+.savedcelltwo {
+	width: 30%;
+	color: #cdb38e;
+	text-shadow: 0 0 4px #4b2615;
+	text-align: right;
+	font-size: 14px;
+	font-weight: bold;
+	height: 17px;
+	overflow: hidden;
+}
+.savedcellthree {
+	width: auto;
+	color: #cdb38e;
+	text-shadow: 0 0 4px #4b2615;
+	text-align: left;
+	font-size: 14px;
+	font-weight: normal;
+	height: 17px;
+	overflow: hidden;
+}
+.savedcellfour {
+	width: 30%;
+	color: #cdb38e;
+	text-shadow: 0 0 4px #4b2615;
+	text-align: right;
+	font-size: 14px;
+	font-weight: bold;
+	height: 17px;
+	overflow: hidden;
+}
+.savedcellfive {
+	width: 20%;
+	color: #cdb38e;
+	text-shadow: 0 0 4px #4b2615;
+	text-align: left;
+	font-size: 14px;
+	font-weight: normal;
+	height: 17px;
+	vertical-align: central;
+	overflow: hidden;
+}
+.space {
+	height: 10px;
+}
+/* END: Saved List Block */
+/* START: warning Message Block */
+.warningblock {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -143px;
+	margin-top: -60px;
+	width: 286px;
+	height: 127px;
+	z-index: 40;
+	background-image: url(../images/warning-block.png);
+}
+.darkness {
+	z-index: 30;
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	background: -moz-linear-gradient(top,  rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.65)), color-stop(100%,rgba(0,0,0,0))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+}
+.warningmessage {
+	margin-top: 11px;
+	margin-left: 14px;
+	height: 70px;
+	width: 258px;
+	float: left;
+}
+.warningyes {
+	width: 79px;
+	height: 46px;
+	float: left;
+	margin-left: 61px;
+	border: none;
+}
+.warningno {
+	width: 79px;
+	height: 46px;
+	float: left;
+	margin-left: 6px;
+	border: none;
+}
+.warningok {
+	width: 79px;
+	height: 46px;
+	float: left;
+	margin-left: 103px;
+	border: none;
+}
+.warningtable {
+	height: 70px;
+	width: 258px;
+}
+.warningcell {
+	height: 70px;
+	width: 258px;
+	color: #cdb38e;
+	text-shadow: 0 0 4px #4b2615;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+}
+/* END: warning Message Block */
+/* START: Officer config */
+.officerheader {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	height: 85px;
+	width: 306px;
+	background-image: url(../images/officer-header-block.png);
+}
+.officertable {
+	height: 31px;
+	width: 101px;
+	float: left;
+	margin-left: 137px;
+	margin-top: 38px;
+}
+.officertext {
+	width: 101px;
+	height: 31px;
+	color: #cdb38e;
+	text-shadow: 0 0 4px #4b2615;
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+}
+.addofficer {
+	width: 306px;
+	height: 45px;
+	margin-left: auto;
+	margin-right: auto;
+	border: none;
+}
+.addslot {
+	width: 306px;
+	height: 45px;
+	border: none;
+}
+.officerslottitle {
+	width: 258px;
+	height: 22px;
+	border: none;
+	float: right;
+}
+.officerinexperiecned {
+	width: 105px;
+	height: 15px;
+	border: none;
+	float: right;
+}
+.officerregular {
+	width: 69px;
+	height: 15px;
+	border: none;
+	float: right;
+}
+.officerveteran {
+	width: 69px;
+	height: 15px;
+	border: none;
+	float: right;
+	margin-right: 15px;
+}
+/* END: Officer config */
+/* START: Small Team Config */
+.stslottitle {
+	width: 243px;
+	height: 22px;
+	border: none;
+	float: left;
+	margin-left: 5px;
+}
+.stslotweapon {
+	width: 243px;
+	height: 15px;
+	border: none;
+	float: left;
+	margin-left: 5px;
+}
+/* END: Small Team Config */
+/* START: Medic */
+.medicheader {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	height: 85px;
+	width: 306px;
+	background-image: url(../images/medic-team.png);
+}
+/* END: Medic */
+/* START: Forward Observer */
+.forwardheader {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	height: 85px;
+	width: 306px;
+	background-image: url(../images/forward-observer-block.png);
+}
+/* END: Forward Observer */
