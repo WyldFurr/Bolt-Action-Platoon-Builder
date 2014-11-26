@@ -863,3 +863,166 @@ a:active {
 	background-image: url(images/forward-observer-block.png);
 }
 /* END: Forward Observer */
+/* START: Unit Picker */
+.upheader-1 {
+	width: 306px;
+	height: 35px;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url(images/unit-picker-header-1.png);
+}
+.upheader-2 {
+	width: 306px;
+	height: 35px;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url(images/unit-picker-header-2.png);
+}
+.upheader-3 {
+	width: 306px;
+	height: 35px;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url(images/unit-picker-header-3.png);
+}
+.upheader-4 {
+	width: 306px;
+	height: 35px;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url(images/unit-picker-header-4.png);
+}
+.upheader-5 {
+	width: 306px;
+	height: 35px;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url(images/unit-picker-header-5.png);
+}
+.uptitle {
+	width: 300px;
+	height: 29px;
+	border: none;
+	float: left;
+	margin-left: 3px;
+}
+.up-slot-1 {
+	background-image: url(images/unit-picker-slot-1.png);
+	width: 306px;
+	height: 35px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.up-slot-2 {
+	background-image: url(images/unit-picker-slot-2.png);
+	width: 306px;
+	height: 59px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.up-slot-3 {
+	background-image: url(images/unit-picker-slot-3.png);
+	width: 306px;
+	height: 83px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.up-slot-4 {
+	background-image: url(images/unit-picker-slot-4.png);
+	width: 306px;
+	height: 107px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.up-slot-5 {
+	background-image: url(images/unit-picker-slot-5.png);
+	width: 306px;
+	height: 131px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.up-slot-6 {
+	background-image: url(images/unit-picker-slot-6.png);
+	width: 306px;
+	height: 155px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.up-slot-7 {
+	background-image: url(images/unit-picker-slot-7.png);
+	width: 306px;
+	height: 179px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.up-slot-8 {
+	background-image: url(images/unit-picker-slot-8.png);
+	width: 306px;
+	height: 203px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.up-slot-9 {
+	background-image: url(images/unit-picker-slot-9.png);
+	width: 306px;
+	height: 227px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.up-slot-10 {
+	background-image: url(images/unit-picker-slot-10.png);
+	width: 306px;
+	height: 251px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.up-slot-11 {
+	background-image: url(images/unit-picker-slot-11.png);
+	width: 306px;
+	height: 275px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.up-slot-12 {
+	background-image: url(images/unit-picker-slot-12.png);
+	width: 306px;
+	height: 299px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.up-slot-13 {
+	background-image: url(images/unit-picker-slot-13.png);
+	width: 306px;
+	height: 323px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.slotnumberscontainer {
+	width: 44px;
+	height: 22px;
+	float: left;
+	margin-left: 14px;
+	margin-top: 4px;
+}
+.pickernumbertable {
+	width: 44px;
+	height: 22px;
+}
+.pickernumbercell {
+	width: 44px;
+	height: 22px;
+	color: #cdb38e;
+	text-shadow: 0 0 4px #4b2615;
+	text-align: center;
+	font-size: 15px;
+	font-weight: bold;
+}
+.unitname {
+	width: 243px;
+	height: 22px;
+	float: right;
+	margin-top: 3px;
+	margin-right: 5px;
+	border: none;
+}
+/* END: Unit Picker */
