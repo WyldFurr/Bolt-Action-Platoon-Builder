@@ -473,8 +473,8 @@ a:active {
 /* START: Platoon Unit Order */
 /* START: Studio Link */
 .studiowyldfurr {
-	width: 150px;
-	height: 55px;
+	width: 100px;
+	height: 152px;
 	border: none;
 	margin-bottom: 20px;
 	margin-top: 50px;
@@ -1074,3 +1074,36 @@ h1:after {
 	margin-bottom: 4px;
 }
 /* END: Info Pages */
+/* START: Sign In */
+.signin {
+	width: 306px;
+	height: 130px;
+	background-image:url(images/sign-in-block.png);
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+}
+.loginbutton {
+	height: 45px;
+	width: 306px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.loginimage {
+	height: 45px;
+	width: 306px;
+	border: none;
+}
+.smalltextblock {
+	background-image: url(images/small-text-block.png);
+	width: 257px;
+	height: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	padding-top: 21px;
+	padding-bottom: 0px;
+	padding-left: 27px;
+	padding-right: 22px;
+}
+/* END: Sign in */
